@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  float:left;
+}
+
+.well {
+  background-color: blue;
+  color: white;
+}
+
+a {
+  font-size: 20px;
+  font-weight: bolder:
+}
