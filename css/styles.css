@@ -1,6 +1,11 @@
 h1, h3 {
+  color: black;
   text-align: center;
-  text-shadow: white 2px 3px;
+  text-shadow: white 1px 1px;
+}
+
+h2, p {
+  color: orange;
 }
 
 img {
@@ -18,4 +23,13 @@ a {
   font-size: 20px;
   font-weight: bolder;
   color: purple;
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/2aTgmO1iZIlcpui836btLXiO9u4dKSYY7tAsCjiuM2rjCHC7RaCwsx1YoFbftvKxVYNt0eB50c7WMVRrZ1_WcnQ5hH1GO0dFyzelHhe4YJbG-2mcl9JsjwXwszJORMATcUgLhL-xBVC0ZTUnHyN3B4Cr36gvFbrOqNmYO-B86OveP8ErsUGu7qEmwVHJVP6IzIDveOvGmSlfYbZuWsYAiKIOrnfOg9ZgL4VTUH0VL7C71xH4iv7TQ1SMf0OPJ7-vOGdBno-L_F04y-jD6BHwq-QQM6LoWhmvLyGVvwWCbX12hN50NZnBAdWNCb_kFgvknXBEPzl5ylfzfEIm1LnpwEMdyqL4lO3V6hIzSM3B0CWf1pD7u18C9KhoSGhg7ITgblE6oRZE0ghjWV3k1qy7Anlmgi6nIYHnKZ_wggkPWwLgSKggK5mqLJBWVswKLYbPTFPAP_HH7RhL_cUJjs9OlgiOWU7-ZjoBehiR2DiqurbSbRsy92TqTXomyEwAbY9XFf9Uw9rW6gegQi2CRWxRSEIcJoP3YiF1AVV4y9tvxsaPi6V13W7mfCKczS2rrLsryaBsMb2zoeyX2wdm81HjURBvjMb640I5O6DSGM9s_kJQ8fX6=w2916-h2188-no")
 }
