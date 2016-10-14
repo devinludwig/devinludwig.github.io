@@ -1,17 +1,21 @@
-h1 {
+h1, h3 {
   text-align: center;
+  text-shadow: white 2px 3px;
 }
 
 img {
   float:left;
+  margin-right: 10px;
+  border: 5px solid black;
 }
 
 .well {
-  background-color: blue;
-  color: white;
+  background-image: url("https://lh3.googleusercontent.com/ObYwcZCX9_-p57Ro6ibjiAD3qgX0R5E__GDpnkC-j0dr6fl8W4t_60Dm2NamQ34sZLxtvrbOK8C1iA=w10240-h5760-rw-no");
+  background-position: center;
 }
 
 a {
   font-size: 20px;
-  font-weight: bolder:
+  font-weight: bolder;
+  color: purple;
 }
