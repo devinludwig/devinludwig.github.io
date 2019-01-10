@@ -9,51 +9,33 @@
       <title>Devin Ludwig</title>
       <!-- Css -->
       <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/lightbox.css" rel="stylesheet" type="text/css" media="all" />
       <link href="css/style.css" rel="stylesheet">
-      <link rel="icon" type="image/x-icon" href="favicon.ico" />
    </head>
    <body>
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
          <div class="col-md-12">
             <div class="nav">
                <button class="btn-nav">
-               <span class="icon-bar inverted top"></span>
-               <span class="icon-bar inverted middle"></span>
-               <span class="icon-bar inverted bottom"></span>
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
                </button>
             </div>
             <a class="navbar-brand" href="index.html">
-            <h2>Devin Ludwig</h2>
+            <img class="logo" src="img/logo.png" alt="logo">
             </a>
             <div class="nav-content hideNav hidden">
                <ul class="nav-list vcenter">
-                  <li class="nav-item"><a class="item-anchor" onclick="about()">About</a></li>
-                  <li class="nav-item"><a class="item-anchor" onclick="portfolio()">Portfolio</a></li>
-                  <li class="nav-item"><a class="item-anchor" onClick="javascript:window.open('mailto:devinludwig@gmail.com', 'Mail');event.preventDefault()" href="mailto:devinludwig@gmail.com">Contact</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a onClick="javascript:window.open('mailto:devinludwig@gmail.com', 'Mail');event.preventDefault()" href="mailto:devinludwig@gmail.com">Contact</a></li>
                </ul>
             </div>
          </div>
       </nav>
-      <!-- Header -->
-      <div class="span12" id="home">
-         <div class="col-md-6 no-gutter text-center fill">
-            <h2 class="vcenter">Full Stack Software Engineer</h2>
-         </div>
-         <div class="col-md-6 no-gutter text-center">
-            <div id="header" data-speed="2" data-type="background">
-               <div id="headslide" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner" role="listbox">
-                     <div class="item active">
-                        <img src="img/4.jpg" alt="Slide">
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div style="clear:both;"></div>
-
-      <section id="portfolio" hidden>
+      <section id="portfolio">
          <div class="container">
             <ul class="portfolio-sorting list-inline text-center">
                <li><a href="#" data-group="all" class="active">All</a>
@@ -138,51 +120,11 @@
             </div>
          </div>
       </section>
-
-      <section id="about" hidden>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1>
-                     Full Stack Software Engineer
-                     <br>
-                     Currently Seeking Employment
-                  </h1>
-                  <br>
-                  <img class="img-responsive margin-top-45" src="img/4.jpg" alt="me">
-               </div>
-            </div>
-            <br>
-            <div class="row margin-top-45">
-               <div class="col-md-3">
-                  <h2>My story</h2>
-               </div>
-               <div class="col-md-9">
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula libero auctor dolor vulputate varius. Nunc ac nisl non felis finibus ultricies. Donec at porttitor lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin volutpat augue ex. In hac habitasse platea dictumst. Suspendisse at ante ligula. Nulla facilisis velit egestas massa imperdiet, id posuere turpis feugiat.
-                  </p>
-                  <br>
-                  <p>
-                     Etiam at consectetur sapien, vel laoreet diam. Aliquam erat volutpat. Quisque fermentum purus ac justo fermentum vulputate eu id libero. Donec quam ipsum, malesuada nec interdum in, commodo vel nisl. Aliquam erat volutpat. Donec suscipit molestie urna, at pharetra tortor interdum eget. Ut lobortis viverra ex, quis faucibus sapien iaculis in. Suspendisse laoreet ornare justo sit amet fermentum. Pellentesque non nulla id libero pretium bibendum vel nec dolor.
-                  </p>
-               </div>
-            </div>
-            <div class="row margin-top-45">
-               <div class="col-md-3">
-                  <h2>Services</h2>
-               </div>
-               <div class="col-md-9">
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula libero auctor dolor vulputate varius. Nunc ac nisl non felis finibus ultricies. Donec at porttitor lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin volutpat augue ex. In hac habitasse platea dictumst. Suspendisse at ante ligula. Nulla facilisis velit egestas massa imperdiet, id posuere turpis feugiat.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </section>
       <!-- script -->
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>
-      <script src="js/menu-color.js"></script>
+      <script src="js/lightbox-plus-jquery.js"></script>
+      <script src="js/jquery.shuffle.min.js"></script>
       <script src="js/modernizr.js"></script>
       <script src="js/script.js"></script>
    </body>
