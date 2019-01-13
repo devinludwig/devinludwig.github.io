@@ -10,6 +10,18 @@ var portfolio = function() {
   $('#portfolio').show();
   $('#home').hide();
   $('#about').hide();
+  $('nav').addClass('color-fill');
+  $('.icon-bar').removeClass('inverted');
+  $(".nav-content").toggleClass("showNav hideNav").removeClass("hidden");
+  $(".btn-nav").toggleClass("animated");
+};
+
+var about = function() {
+  $('#portfolio').hide();
+  $('#home').hide();
+  $('#about').show();
+  $('nav').addClass('color-fill');
+  $('.icon-bar').removeClass('inverted');
   $(".nav-content").toggleClass("showNav hideNav").removeClass("hidden");
   $(".btn-nav").toggleClass("animated");
 };
